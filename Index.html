@@ -19,10 +19,10 @@ img {margin-bottom: -7px}
     <i class="fa fa-remove"></i>
   </a>
   <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Informacion</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Fotos</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Tienda</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contactame</a>
+    <a href="Info.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Informacion</a>
+    <a href="Trabajos.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Trabajos</a>
+    <a href="Tienda.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Tienda</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contactame</a>
   </div>
 </nav>
 
@@ -35,31 +35,31 @@ img {margin-bottom: -7px}
 <div class="w3-clear"></div>
 <header class="w3-center w3-margin-bottom">
   <h1><b>Portafolio</b></h1>
-  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+  <a class="w3-row-padding" href="https://twitter.com/Doublebuild05" target="_blank"><button class="w3-button w3-black">Contratame</button></a>
 </header>
 </div>
 
 <!-- Photo Grid -->
-<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+<div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
   <div class="w3-third">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/sound.jpg" style="width:100%">
-    <img src="/w3images/woods.jpg" style="width:100%">
-    <img src="/w3images/rock.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="img1.png" style="width:100%">
+    <img src="img2.png" style="width:100%">
+    <img src="img3.png" style="width:100%">
+    <img src="img4.png" style="width:100%">
+    <img src="img5.png" style="width:100%">
+    <img src="img6.png" style="width:100%">
   </div>
 
   <div class="w3-third">
-    <img src="/w3images/coffee.jpg" style="width:100%">
-    <img src="/w3images/bridge.jpg" style="width:100%">
-    <img src="/w3images/notebook.jpg" style="width:100%">
-    <img src="/w3images/london.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/avatar_g.jpg" style="width:100%">
+    <img src="img8.png" style="width:100%">
+    <img src="img9.png" style="width:100%">
+    <img src="img10.png" style="width:100%">
+    <img src="img11.png" style="width:100%">
+    <img src="img12.png" style="width:100%">
+    <img src="img13.png" style="width:100%">
   </div>
 
-  <div class="w3-third">
+ <!--  <div class="w3-third">
     <img src="/w3images/mist.jpg" style="width:100%">
     <img src="/w3images/workbench.jpg" style="width:100%">
     <img src="/w3images/gondol.jpg" style="width:100%">
@@ -67,7 +67,7 @@ img {margin-bottom: -7px}
     <img src="/w3images/lights.jpg" style="width:100%">
     <img src="/w3images/workshop.jpg" style="width:100%">
   </div>
-</div>
+</div>-->
 
 <!-- End Page Content -->
 </div>
@@ -80,24 +80,16 @@ img {margin-bottom: -7px}
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p class="w3-medium">Powered by <a href="https://twitter.com/Doublebuild05" target="_blank" class="w3-hover-text-green">DoubleBuild</a></p>
 </footer>
  
 <script>
-// Toggle grid padding
-function myFunction() {
-  var x = document.getElementById("myGrid");
-  if (x.className === "w3-row") {
-    x.className = "w3-row-padding";
-  } else { 
-    x.className = x.className.replace("w3-row-padding", "w3-row");
-  }
-}
 
 // Open and close sidebar
 function w3_open() {
   document.getElementById("mySidebar").style.width = "100%";
   document.getElementById("mySidebar").style.display = "block";
+
 }
 
 function w3_close() {
